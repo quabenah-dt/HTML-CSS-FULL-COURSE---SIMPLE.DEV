@@ -1,0 +1,76 @@
+<!-- Continuing from excercise 1g. recreate this design using CSS -->
+
+<a href="www.amazon.com">Back to Amazon</a>
+<p class="shoe">Nike Black Running Shoes</p>
+<p class="price">$39 - in stock</p>
+<p>Free delivery tomorrow</p>
+<button class="add">Add to Cart</button>
+<button class="buy">Buy now</button>
+
+
+<style>
+
+    a {
+      color: rgb(0, 113, 133);  
+    }
+
+    a:hover {
+        color: red;
+    }
+
+    .shoe {
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .price {
+        color: rgb(0, 118, 0);
+    }
+
+    p {
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    .add {
+        background-color: rgb(255, 216, 20);
+        border: none;
+        border-radius: 30px;
+        height: 40px;
+        width: 150px;
+        font-weight: bold;
+        cursor: pointer;
+        font-size: 16px;
+        transition: background-color 0.3s;
+    }
+
+    .add:hover {
+       background-color: rgb(241, 199, 7);
+    }
+
+    .add:hover:active {
+        opacity: 0.5;
+    }
+
+    .buy {
+        background-color: rgb(247, 172, 59);
+        border: none;
+        border-radius: 30px;
+        height: 40px;
+        width: 150px;
+        font-weight: bold;
+        cursor: pointer;
+        font-size: 16px; 
+        transition: background-color 0.3s;
+    }
+
+    .buy:hover {
+        background-color: rgb(243, 151, 13);
+    }
+
+    .buy:hover:active {
+        opacity: 0.5;
+    }
+
+</style>
+
