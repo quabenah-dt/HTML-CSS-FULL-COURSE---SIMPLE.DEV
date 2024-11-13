@@ -1,0 +1,52 @@
+<!-- 8e. Uber request-a-ride form -->
+
+<style>
+    * {
+        margin: 0 5px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .ride {
+        font-size: 40px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .loca, .dest {
+        display: block;
+        height: 60px;
+        width: 500px;
+        border: none;
+        background-color: rgb(219, 222, 247);
+        margin-top: 15px;
+        padding: 20px;
+        font-size: 20px;
+    }
+
+    .now {
+        margin-top: 30px;
+        padding: 20px 30px;
+        border: none;
+        background-color: black;
+        color: white;
+        cursor: pointer;
+        font-size: 15px;
+    }
+
+    .later {
+        margin-top: 30px;
+        padding: 20px 30px;
+        border: none;
+        background-color: rgb(219, 222, 247);
+        color: black;
+        cursor: pointer;
+        font-size: 15px;
+    }
+</style>
+
+
+<p class="ride">Request a ride now</p>
+<input type="text" placeholder="Enter pickup location" class="loca">
+<input type="text" placeholder="Enter destination" class="dest">
+<button class="now">Request now</button>
+<button class="later">Schedule for later</button>
