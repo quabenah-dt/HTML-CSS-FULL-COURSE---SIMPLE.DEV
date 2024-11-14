@@ -1,0 +1,84 @@
+<style>
+    * {
+        margin: 0;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .card {
+        border: none;
+        width: 200px;
+        height: 320px;
+        margin: 10px;
+        box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.3);
+    }
+
+    img {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        object-position: contain;
+    }
+
+    .name {
+        padding-left: 10px;
+        margin-top: 10px;
+        font-weight: bold;
+    }
+
+    .friends {
+        padding-left: 10px;
+        margin-top: 5px;
+        color: gray;
+    }
+
+    .add {
+        margin-left: 10px;
+        margin-top: 15px;
+        color: white;
+        background-color: rgb(10, 102, 194);
+        border: none;
+        height: 40px;
+        width: 130px;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+
+    .container {
+        display: flex;
+    }
+
+
+</style>
+
+<!-- 9f. Recreate this design -->
+
+<div class="card">
+    <img src="./cat.jpg" alt="cat">
+    <p class="name">Oliver</p>
+    <p class="friends">2 mutual friends</p>
+    <button class="add">Add Friend</button>
+</div>
+
+
+<!-- 9g. For exercise 9f. set display: inline-block on the <div>, and duplicate the design a few times -->
+
+    <div class="container">
+        <div class="card";>
+            <img src="./cat.jpg" alt="cat">
+            <p class="name">Oliver</p>
+            <p class="friends">2 mutual friends</p>
+            <button class="add">Add Friend</button>
+        </div>
+        <div class="card">
+            <img src="./cat2.jpg" alt="cat">
+            <p class="name">Oliver</p>
+            <p class="friends">2 mutual friends</p>
+            <button class="add">Add Friend</button>
+        </div>
+        <div class="card">
+            <img src="./dog.jpg" alt="cat">
+            <p class="name">Oliver</p>
+            <p class="friends">2 mutual friends</p>
+            <button class="add">Add Friend</button>
+        </div>
+    </div>
